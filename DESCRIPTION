@@ -1,0 +1,14 @@
+Package: nbastats
+Title: Some Analyses of NBA Player Data
+Version: 0.1
+Authors@R: 
+    person(given = "Amanda",
+           family = "Weiss",
+           role = c("aut", "cre"),
+           email = "akb2177@columbia.edu",
+           comment = c(ORCID = "0000-0003-0675-5802"))
+Description: "This R package distributes a dataset of NBA stats covering the years 1950-2017, derived from a dataset on Kaggle available at the following link: https://www.kaggle.com/drgilermo/nba-players-stats/data. The nbastats package has three functions, one dedicated to 1950s player Ed Bartels' true shooting percentage in an inputted year, one that returns the oldest player in the dataset for a given year, and one that produces a correlation matrix of all numeric variables in the dataset for a given year. The packages gives the user a brief glimpse of what fun data practice can be had with the included dataset."
+License: "Creative Commons Attribution-ShareAlike 4.0 International Public License"
+Encoding: UTF-8
+LazyData: TRUE 
+RoxygenNote: 6.1.1
