@@ -1,3 +1,11 @@
+#' Oldest player in NBA data
+#'
+#' This function returns the oldest player in the NBA data in a given year
+#' @param yearinput
+#' @keywords oldest,player
+#' @export
+#' @examples
+#' oldest_player(1952)
 
 oldest_player <- function(x){
 
