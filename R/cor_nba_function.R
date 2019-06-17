@@ -1,3 +1,11 @@
+#' Correlation matrix of numeric variables
+#'
+#' This function returns a correlation matrix of all numeric variables in the nba_data
+#' @param yearinput
+#' @keywords correlation,nba
+#' @export
+#' @examples
+#' cor_nba(1952)
 
 cor_nba <- function(x){
   nba_numeric <- purrr::keep(nba_data, is.numeric)
